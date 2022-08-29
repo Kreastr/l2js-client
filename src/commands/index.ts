@@ -1,5 +1,6 @@
 import CommandAcceptJoinParty from "./CommandAcceptJoinParty";
 import CommandAcceptResurrect from "./CommandAcceptResurrect";
+import CommandAppear from "./CommandAppear";
 import CommandAttack from "./CommandAttack";
 import CommandAutoShots from "./CommandAutoShots";
 import CommandCancelBuff from "./CommandCancelBuff";
@@ -38,6 +39,7 @@ import CommandValidatePosition from "./CommandValidatePosition";
   export default {
     acceptJoinParty: CommandAcceptJoinParty.prototype,
   acceptResurrect: CommandAcceptResurrect.prototype,
+  appear: CommandAppear.prototype,
   attack: CommandAttack.prototype,
   autoShots: CommandAutoShots.prototype,
   cancelBuff: CommandCancelBuff.prototype,
