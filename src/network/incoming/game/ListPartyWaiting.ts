@@ -39,7 +39,7 @@ export default class ListPartyWaiting extends GameClientPacket {
         room.owner = this.readS();
         room.membersCount = this.readD();
         room.members = [];
-        for (let i = 0; i < _roomsCount; i++)
+        for (let j = 0; j < _roomsCount; j++)
         {
             let member = {classId: 0,
                           name: ""};
