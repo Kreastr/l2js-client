@@ -30,6 +30,7 @@ import CommandSitStand from "./CommandSitStand";
 import CommandTell from "./CommandTell";
 import CommandUseItem from "./CommandUseItem";
 import CommandValidatePosition from "./CommandValidatePosition";
+import CommandListPartyWaitingRooms from "./CommandListPartyWaitingRooms";
 
 
   export default {
@@ -65,6 +66,7 @@ import CommandValidatePosition from "./CommandValidatePosition";
   tell: CommandTell.prototype,
   useItem: CommandUseItem.prototype,
   validatePosition: CommandValidatePosition.prototype,
+  listPartyWaitingRooms: CommandListPartyWaitingRooms.prototype
 
   };
   
