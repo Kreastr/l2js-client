@@ -52,13 +52,6 @@ export default class ListPartyWaiting extends GameClientPacket {
         _rooms.push(room);
     }
 
-    const _roomMaxMembers = this.readD();
-    const _roomMinLevel = this.readD();
-    const _roomMaxLevel = this.readD();
-    const _roomLootType = this.readD();
-    const _roomLocation = this.readD();
-    const _roomTitle = this.readS();
-
     return true;
   }
 }
