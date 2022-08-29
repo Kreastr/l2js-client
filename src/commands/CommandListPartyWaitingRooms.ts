@@ -3,7 +3,7 @@ import GameClient from "../network/GameClient";
 import RequestListPartyMatchingWaitingRoom from "../network/outgoing/game/RequestListPartyMatchingWaitingRoom";
 
 export default class CommandListPartyWaitingRooms extends AbstractGameCommand {
-  execute(text: string): void {
-    this.GameClient?.sendPacket(new RequestListPartyMatchingWaitingRoom(0, 0, 20, 0));
+  execute(page: number, minLevel: number, maxLevel: number, mode: number): void {
+    this.GameClient?.sendPacket(new RequestListPartyMatchingWaitingRoom(page, minLevel, maxLevel, mode));
   }
 }
