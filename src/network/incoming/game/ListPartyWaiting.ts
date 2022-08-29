@@ -6,7 +6,6 @@ export default class ListPartyWaiting extends GameClientPacket {
     const _id = this.readC();
 
     const _listIsNotEmpty = this.readD();
-    const _roomId = this.readD();
     const _roomsCount = this.readD();
     
     const _rooms: any[] = [];
