@@ -1,15 +1,19 @@
 import GameClientPacket from "./GameClientPacket";
 
 export default class ListPartyWaiting extends GameClientPacket {
+    
+    roomsCount: number = 0;
+    rooms: any[] = [];
+    
   // @Override
   readImpl(): boolean {
     const _id = this.readC();
 
-    const _listIsNotEmpty = this.readD();
-    const _roomsCount = this.readD();
+    const _listIsNotEmpty: number = this.readD();
+    const _roomsCount: number = this.readD();
     
-    const _rooms: any[] = [];
-    
+    this.roomsCount = _roomsCount;
+
     for (let i = 0; i < _roomsCount; i++)
     {
         let room: { id: number,
@@ -48,7 +52,7 @@ export default class ListPartyWaiting extends GameClientPacket {
 
             room.members.push(member);
         }
-        _rooms.push(room);
+        this.rooms.push(room);
     }
 
     return true;
