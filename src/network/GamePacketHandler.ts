@@ -255,6 +255,9 @@ export default class GamePacketHandler implements IPacketHandler<GameClient> {
         case 0x89:
           rpk = new Packets.PledgeInfo();
           break;
+        case 0x9d:
+          rpk = new Packets.PartyMatchDetail();
+          break;
         case 0x9f:
           rpk = new Packets.StaticObject();
           break;

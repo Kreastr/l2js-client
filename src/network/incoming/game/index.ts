@@ -61,6 +61,7 @@ import NpcHtmlMessage from "./NpcHtmlMessage";
 import NpcInfo from "./NpcInfo";
 import NpcQuestHtmlMessage from "./NpcQuestHtmlMessage";
 import NpcSay from "./NpcSay";
+import PartyMatchDetail from "./PartyMatchDetail";
 import PartyMemberPosition from "./PartyMemberPosition";
 import PartySmallWindowAdd from "./PartySmallWindowAdd";
 import PartySmallWindowAll from "./PartySmallWindowAll";
@@ -190,6 +191,7 @@ export {
   NpcInfo,
   NpcQuestHtmlMessage,
   NpcSay,
+  PartyMatchDetail,
   PartyMemberPosition,
   PartySmallWindowAdd,
   PartySmallWindowAll,
