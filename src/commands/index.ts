@@ -13,6 +13,7 @@ import CommandDwarvenCraftRecipes from "./CommandDwarvenCraftRecipes";
 import CommandEnter from "./CommandEnter";
 import CommandHit from "./CommandHit";
 import CommandInventory from "./CommandInventory";
+import CommandListPartyWaitingRooms from "./CommandListPartyWaitingRooms";
 import CommandLogout from "./CommandLogout";
 import CommandMoveTo from "./CommandMoveTo";
 import CommandNextTarget from "./CommandNextTarget";
@@ -30,7 +31,6 @@ import CommandSitStand from "./CommandSitStand";
 import CommandTell from "./CommandTell";
 import CommandUseItem from "./CommandUseItem";
 import CommandValidatePosition from "./CommandValidatePosition";
-import CommandListPartyWaitingRooms from "./CommandListPartyWaitingRooms";
 
 
   export default {
@@ -49,6 +49,7 @@ import CommandListPartyWaitingRooms from "./CommandListPartyWaitingRooms";
   enter: CommandEnter.prototype,
   hit: CommandHit.prototype,
   inventory: CommandInventory.prototype,
+  listPartyWaitingRooms: CommandListPartyWaitingRooms.prototype,
   logout: CommandLogout.prototype,
   moveTo: CommandMoveTo.prototype,
   nextTarget: CommandNextTarget.prototype,
@@ -66,7 +67,6 @@ import CommandListPartyWaitingRooms from "./CommandListPartyWaitingRooms";
   tell: CommandTell.prototype,
   useItem: CommandUseItem.prototype,
   validatePosition: CommandValidatePosition.prototype,
-  listPartyWaitingRooms: CommandListPartyWaitingRooms.prototype
 
   };
   
