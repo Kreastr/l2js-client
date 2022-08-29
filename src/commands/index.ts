@@ -13,6 +13,7 @@ import CommandDwarvenCraftRecipes from "./CommandDwarvenCraftRecipes";
 import CommandEnter from "./CommandEnter";
 import CommandHit from "./CommandHit";
 import CommandInventory from "./CommandInventory";
+import CommandJoinLFPRoom from "./CommandJoinLFPRoom";
 import CommandListPartyWaitingRooms from "./CommandListPartyWaitingRooms";
 import CommandLogout from "./CommandLogout";
 import CommandMoveTo from "./CommandMoveTo";
@@ -50,6 +51,7 @@ import CommandValidatePosition from "./CommandValidatePosition";
   enter: CommandEnter.prototype,
   hit: CommandHit.prototype,
   inventory: CommandInventory.prototype,
+  joinLFPRoom: CommandJoinLFPRoom.prototype,
   listPartyWaitingRooms: CommandListPartyWaitingRooms.prototype,
   logout: CommandLogout.prototype,
   moveTo: CommandMoveTo.prototype,
