@@ -49,6 +49,7 @@ import ItemList from "./ItemList";
 import JoinParty from "./JoinParty";
 import KeyPacket from "./KeyPacket";
 import LeaveWorld from "./LeaveWorld";
+import ListPartyWaiting from "./ListPartyWaiting";
 import MagicSkillLaunched from "./MagicSkillLaunched";
 import MagicSkillUse from "./MagicSkillUse";
 import MoveToLocation from "./MoveToLocation";
@@ -179,6 +180,7 @@ export {
   JoinParty,
   KeyPacket,
   LeaveWorld,
+  ListPartyWaiting,
   MagicSkillLaunched,
   MagicSkillUse,
   MoveToLocation,
